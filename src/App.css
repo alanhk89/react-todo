@@ -7,3 +7,37 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.ctable{
+  display: table;
+}
+
+.ctable-cell{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.header-wrapper{
+  width: 100%;
+  background-color: #CCC;
+  color:#FFF;
+  display: table;
+}
+
+.main-body{
+  position: relative;
+  width:600px;
+  margin:auto;
+  outline: 1px solid #ccc;
+}
+
+.header-col,.body-col{
+  float: left;
+  width: 50%;
+  padding: 7px;
+  box-sizing: border-box;
+}
+
+.body-col{
+  min-height: 120px;
+}
